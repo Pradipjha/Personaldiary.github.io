@@ -1,0 +1,44 @@
+p, ul{
+font-family: 'Pacifico', cursive;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  margin: 0;
+  padding: 10px 0;    
+  color: #CCCC99;
+  text-align: center;
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block; /*making it block so that we can apply margin to it bcoz by default it is inline where we can't apply margins.*/
+  margin: 60px 500px;
+  height: 150px;
+  width:250px;
+}
+
+html{
+	background-color: #CCCC99;
+}
+
+body {
+  width: 820px;
+  height: 580px;
+  margin: 30px 250px;
+  background-color: #DCDFE3;
+  padding: 0 20px 20px 20px;
+  /*border: 4px solid black;*/
+  background-repeat:no-repeat;
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s; 
+  transition: width 2s, height 2s, transform 2s;
+}
+
+div{
+	position: fixed;
+    top: 330px;
+    left: 750px;
+    color: #E68A2E;
+}
+
+
